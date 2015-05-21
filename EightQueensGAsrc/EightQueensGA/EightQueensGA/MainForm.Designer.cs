@@ -53,9 +53,9 @@
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(284, 122);
+            this.btnStart.Location = new System.Drawing.Point(229, 122);
             this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(60, 24);
+            this.btnStart.Size = new System.Drawing.Size(71, 24);
             this.btnStart.TabIndex = 0;
             this.btnStart.Text = "Start";
             this.btnStart.UseVisualStyleBackColor = true;
@@ -64,7 +64,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(53, 20);
+            this.label1.Location = new System.Drawing.Point(12, 20);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(80, 13);
             this.label1.TabIndex = 1;
@@ -79,7 +79,7 @@
             0,
             0});
             this.txtPop.Name = "txtPop";
-            this.txtPop.Size = new System.Drawing.Size(120, 20);
+            this.txtPop.Size = new System.Drawing.Size(76, 20);
             this.txtPop.TabIndex = 2;
             this.txtPop.Value = new decimal(new int[] {
             100,
@@ -90,7 +90,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(53, 44);
+            this.label2.Location = new System.Drawing.Point(12, 44);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(64, 13);
             this.label2.TabIndex = 1;
@@ -106,7 +106,7 @@
             0,
             0});
             this.txtGen.Name = "txtGen";
-            this.txtGen.Size = new System.Drawing.Size(120, 20);
+            this.txtGen.Size = new System.Drawing.Size(76, 20);
             this.txtGen.TabIndex = 2;
             this.txtGen.Value = new decimal(new int[] {
             10,
@@ -117,7 +117,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(53, 72);
+            this.label3.Location = new System.Drawing.Point(12, 72);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(105, 13);
             this.label3.TabIndex = 1;
@@ -129,7 +129,7 @@
             this.txtCrosProb.DecimalPlaces = 2;
             this.txtCrosProb.Location = new System.Drawing.Point(224, 70);
             this.txtCrosProb.Name = "txtCrosProb";
-            this.txtCrosProb.Size = new System.Drawing.Size(120, 20);
+            this.txtCrosProb.Size = new System.Drawing.Size(76, 20);
             this.txtCrosProb.TabIndex = 2;
             this.txtCrosProb.Value = new decimal(new int[] {
             7,
@@ -140,7 +140,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(53, 98);
+            this.label4.Location = new System.Drawing.Point(12, 98);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(99, 13);
             this.label4.TabIndex = 1;
@@ -151,7 +151,7 @@
             this.txtMutProb.DecimalPlaces = 2;
             this.txtMutProb.Location = new System.Drawing.Point(224, 96);
             this.txtMutProb.Name = "txtMutProb";
-            this.txtMutProb.Size = new System.Drawing.Size(120, 20);
+            this.txtMutProb.Size = new System.Drawing.Size(76, 20);
             this.txtMutProb.TabIndex = 2;
             this.txtMutProb.Value = new decimal(new int[] {
             1,
@@ -165,7 +165,7 @@
             this.dgResults.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colSol,
             this.ColFit});
-            this.dgResults.Location = new System.Drawing.Point(56, 152);
+            this.dgResults.Location = new System.Drawing.Point(12, 152);
             this.dgResults.Name = "dgResults";
             this.dgResults.RowHeadersVisible = false;
             this.dgResults.Size = new System.Drawing.Size(288, 347);
@@ -188,9 +188,9 @@
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(56, 122);
+            this.progressBar1.Location = new System.Drawing.Point(33, 122);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(222, 24);
+            this.progressBar1.Size = new System.Drawing.Size(190, 24);
             this.progressBar1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.progressBar1.TabIndex = 5;
             // 
@@ -198,16 +198,17 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(347, 18);
+            this.label5.Location = new System.Drawing.Point(498, 18);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(108, 13);
             this.label5.TabIndex = 1;
             this.label5.Text = "The Best Solution";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // checkProgress
             // 
             this.checkProgress.AutoSize = true;
-            this.checkProgress.Location = new System.Drawing.Point(35, 122);
+            this.checkProgress.Location = new System.Drawing.Point(12, 122);
             this.checkProgress.Name = "checkProgress";
             this.checkProgress.Size = new System.Drawing.Size(15, 14);
             this.checkProgress.TabIndex = 6;
@@ -216,7 +217,7 @@
             // board1
             // 
             this.board1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.board1.Location = new System.Drawing.Point(350, 34);
+            this.board1.Location = new System.Drawing.Point(318, 34);
             this.board1.Name = "board1";
             this.board1.Size = new System.Drawing.Size(467, 465);
             this.board1.TabIndex = 4;
@@ -226,7 +227,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
-            this.ClientSize = new System.Drawing.Size(869, 556);
+            this.ClientSize = new System.Drawing.Size(815, 498);
             this.Controls.Add(this.checkProgress);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.board1);

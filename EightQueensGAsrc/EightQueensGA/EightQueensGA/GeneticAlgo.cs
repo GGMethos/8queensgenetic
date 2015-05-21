@@ -1,4 +1,6 @@
-﻿using System;
+﻿//Genetic Algorithm
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +11,7 @@ namespace EightQueensGA
     {
         public int[] genes;
         public int fitness;
-        public double cumAvgFitness; //cumilative of average of fitness value
+        public double cumAvgFitness; //cumalative of average of fitness value used for last function only
     }
 
     delegate void Progress(int progress);
@@ -47,7 +49,7 @@ namespace EightQueensGA
             
             
         }       
-
+        //regular crossover
         public void Crossover(ref List<Chromosome> parents, double probability)
         {
             List<Chromosome> offspring = new List<Chromosome>();
@@ -132,6 +134,7 @@ namespace EightQueensGA
             return selection;
         }
 
+        //random
         public void Mutate(ref List<Chromosome> parents, double probability)
         {
             List<Chromosome> offsprings = new List<Chromosome>();   
@@ -173,6 +176,8 @@ namespace EightQueensGA
                 return false;
         }
 
+
+        //actual fitness function for this GA
         public void CalcFitness(ref List<Chromosome> chromosome, ref int totalFitness)
         {
             int collisions = 0;
