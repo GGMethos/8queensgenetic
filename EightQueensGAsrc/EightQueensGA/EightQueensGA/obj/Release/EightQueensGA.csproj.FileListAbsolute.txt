@@ -1,0 +1,9 @@
+C:\Users\Methos\Documents\GitHub\8queensgenetic\EightQueensGAsrc\EightQueensGA\EightQueensGA\bin\Release\EightQueensGA.exe
+C:\Users\Methos\Documents\GitHub\8queensgenetic\EightQueensGAsrc\EightQueensGA\EightQueensGA\bin\Release\EightQueensGA.pdb
+C:\Users\Methos\Documents\GitHub\8queensgenetic\EightQueensGAsrc\EightQueensGA\EightQueensGA\obj\Release\EightQueensGA.csprojResolveAssemblyReference.cache
+C:\Users\Methos\Documents\GitHub\8queensgenetic\EightQueensGAsrc\EightQueensGA\EightQueensGA\obj\Release\EightQueensGA.Board.resources
+C:\Users\Methos\Documents\GitHub\8queensgenetic\EightQueensGAsrc\EightQueensGA\EightQueensGA\obj\Release\EightQueensGA.MainForm.resources
+C:\Users\Methos\Documents\GitHub\8queensgenetic\EightQueensGAsrc\EightQueensGA\EightQueensGA\obj\Release\EightQueensGA.Properties.Resources.resources
+C:\Users\Methos\Documents\GitHub\8queensgenetic\EightQueensGAsrc\EightQueensGA\EightQueensGA\obj\Release\EightQueensGA.csproj.GenerateResource.Cache
+C:\Users\Methos\Documents\GitHub\8queensgenetic\EightQueensGAsrc\EightQueensGA\EightQueensGA\obj\Release\EightQueensGA.exe
+C:\Users\Methos\Documents\GitHub\8queensgenetic\EightQueensGAsrc\EightQueensGA\EightQueensGA\obj\Release\EightQueensGA.pdb
